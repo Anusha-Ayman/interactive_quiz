@@ -1,0 +1,182 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: rgba(50,50,93,0.25) 0px 13px 27px -5px, rgba(0,0,0,0.3) 0px 8px 16px -8px;
+}
+
+.navbar-links{
+    display: flex;
+    column-gap: 20px;
+}
+
+.navbar-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-links a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+
+input{
+    width: 60%;
+    padding: 15px;
+}
+
+.navbar-menu-toggle{
+    cursor: pointer;
+}
+
+
+
+@media  screen and (max-width:700px) {
+    .navbar-links{
+        display: none;
+    }
+    .top-img{
+        display: none;
+    }
+    .service-container-1 p,h2{
+        display: none;
+    }
+    .service-container-2{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+        gap: 10px;
+    }
+    .foods{
+        display: none;
+    }
+}
+
+.side-navbar{
+    background-color: black;
+    width:300px;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    padding: 20px;
+    color:white;
+    display: none;
+}
+
+.side-navbar-link{
+    margin-bottom: 30px;
+}
+
+
+.side-navbar-link a{
+    text-decoration: none;
+    color: white;
+}
+
+.side-navbar-link a:hover{
+    text-decoration: underline;
+    color:red;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.top-button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.service{
+    padding: 20px;
+}
+
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-container-2 div{
+    background-color: lightslategray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.foods{
+    text-align: center;
+}
+
+
+.box{
+    border:2px solid black;
+    display: inline-block;
+    width: 250px;
+}
+
+
+.box button{
+    padding:10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.box button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.news button{
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.news button:hover{
+    background-color: white;
+    color: black;
+}
+
+.Contact{
+    margin-top: 20px;
+    padding: 40px;
+    background-color: black;
+    color: white; }
